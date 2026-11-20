@@ -312,3 +312,5 @@ a{color:inherit;text-decoration:none}
   .main-nav{height:100dvh;visibility:hidden;pointer-events:none}
   .main-nav.open{visibility:visible;pointer-events:auto}
 }
+
+.hero{overflow:hidden}
