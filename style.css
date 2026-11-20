@@ -305,4 +305,10 @@ a{color:inherit;text-decoration:none}
   .nav-toggle.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
   .gallery-grid{grid-template-columns:1fr}
   .contact-form{padding:26px}
-  }
+}
+
+/* Mobile menu stays hidden until opened and fills the viewport. */
+@media (max-width:680px){
+  .main-nav{height:100dvh;visibility:hidden;pointer-events:none}
+  .main-nav.open{visibility:visible;pointer-events:auto}
+}
